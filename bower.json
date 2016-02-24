@@ -1,0 +1,22 @@
+{
+  "name": "kjaer_test",
+  "description": "Basic development setup",
+  "main": "index.js",
+  "authors": [
+    "kristinakjaer <kristinakjaer.dk@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kristinakjaer/kjaer_test",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
+}
