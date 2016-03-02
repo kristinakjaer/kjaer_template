@@ -84,9 +84,10 @@ gulp.task('image', function(){
         .pipe(gulp.dest('my_project/build/image'));
 });
 
+// REMEMBER to change "proxy" - middle folder for the right location when new project is created !!!!
 gulp.task('browser-sync', function(){
     browsersync.init({
-       proxy: 'localhost:8888/kjaer_test/my_project'
+       proxy: 'localhost:8888/kjaer_project/my_project'
     });
 });
 
