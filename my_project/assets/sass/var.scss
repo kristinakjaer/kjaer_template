@@ -1,0 +1,9 @@
+$f-base-size: 17px;
+
+$main-color: #888888;
+$small-color: #888888;
+
+// Function to transform px to rem
+@function rem($target-px, $context: $f-base-size) {
+  @return ($target-px / $context) * 1rem;
+}

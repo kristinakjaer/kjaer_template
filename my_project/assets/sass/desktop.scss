@@ -1,0 +1,19 @@
+html {
+  font-size: $f-base-size;
+}
+
+.introduction-section {
+  background-color: $main-color;
+  .col-one {
+    font-size: rem(24px);
+    background-color: transparent;
+  }
+  .col-two {
+    font-size: rem(24px);
+    background-color: transparent;
+  }
+  .col-three {
+    font-size: rem(24px);
+    background-color: transparent;
+  }
+}

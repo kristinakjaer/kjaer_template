@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+  html {
+    font-size: $f-base-size -2px;
+  }
+  .introduction-section {
+    background-color: #888888;
+    .col-one {
+
+    }
+    .col-two {
+      background-color: transparent;
+    }
+    .col-three {
+      background-color: transparent;
+    }
+  }
+}
